@@ -7,7 +7,7 @@ This is a web application that uses the swapi.dev Star Wars API to display infor
 This application
 
 * is robust to changes to the API; the application should be able to work if new categories are added in the future.
-* minimizes API calls by using indexings.
+* minimizes API calls by using indexing.
 
 Note that the user authentication is not connected to any external database; user accounts are stored in local storage.
 
