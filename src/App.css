@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+.MuiListItem-root {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info:first-letter {
+  text-transform:capitalize;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ICONS */
+
+.icon {
+  position:relative;
+  padding-right:5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.list-arrow {
+  position:relative;
+  top:-1px;
+}
+
+.search, .information {
+  position:relative;
+  top:1px;
+}
+
+.list {
+  position:relative;
+  top:3px;
+}
+
+.unlock {
+  position:relative;
+  top:2px;
+  margin-right:4px;
+}
+
+.catalog {
+  position:relative;
+  top:3px;
+  margin-right:6px;
+}
+
+/* ICONS END */
+
+#catalogTitle {
+  margin-right: 50px;
+}
+
+.navButtons .MuiButton-root {
+  margin-left: 10px;
   color: white;
+  border-color: white;
+  display:inline;
 }
 
-.App-link {
-  color: #61dafb;
+.login-paper {
+  padding:20px;
+  margin-top:10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-paper div {
+  display:block;
+  margin-bottom:20px;
+}
+
+.login-paper button {
+  margin-right:10px;
+}
+
+#passwordMessage {
+  margin-top:2px;
+}
+
+#loginMessage {
+  margin-top:10px;
 }
